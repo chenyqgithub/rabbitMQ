@@ -1,0 +1,14 @@
+spring:
+  rabbitmq:
+    appid: 9A064E7A180DD4790F827F546F699BB3
+    queuename: Q2
+    exchange: exchange2
+    routingkey: routingkey2
+    addresses: 127.0.0.1:5672   # 5672
+    username: guest
+    password: guest
+    virtual-host: /
+    
+logging:
+  pattern:
+    level: debug
